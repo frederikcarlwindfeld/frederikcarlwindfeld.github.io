@@ -1,4 +1,4 @@
-```html
+```html id="vxseqx"
 <!doctype html>
 
 <html>
@@ -11,6 +11,35 @@
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <meta name="viewport" content="width=device-width">
 
+    <style>
+      header .sidebar-links {
+        margin-top: 28px;
+        margin-bottom: 28px;
+      }
+
+      header .sidebar-links a {
+        display: block;
+        margin-bottom: 10px;
+        font-size: 17px;
+        line-height: 1.3;
+      }
+
+      header .sidebar-links .cv-link {
+        margin-top: 28px;
+      }
+
+      header .sidebar-updated {
+        margin-top: 28px;
+        color: #666;
+        font-size: 15px;
+      }
+
+      header img.profile-photo {
+        width: 100%;
+        margin-bottom: 15px;
+      }
+    </style>
+
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -22,8 +51,7 @@
       <header>
         <h1>Frederik Carl Windfeld</h1>
 
-        <!-- Replace the src value with the path to your uploaded image -->
-        <img src="frederikcarlwindfeld.github.io/IMG_7992.PNG" alt="Frederik Carl Windfeld" style="width:100%; margin-bottom:15px;">
+        <img src="IMG_7992.PNG" alt="Frederik Carl Windfeld" class="profile-photo">
 
         <p>
           Ph.D. Researcher<br>
@@ -31,24 +59,18 @@
           European University Institute
         </p>
 
-        <p class="view">
-          <a href="mailto:frederikcarl.windfeld@eui.eu">
-            frederikcarl.windfeld@eui.eu
-          </a>
+        <div class="sidebar-links">
+          <a href="mailto:frederikcarl.windfeld@eui.eu">Email</a>
+          <a href="https://scholar.google.dk/citations?user=6JqX544AAAAJ&hl=da&oi=ao">Google Scholar</a>
+          <a href="https://www.linkedin.com/in/frederik-carl-windfeld/">LinkedIn</a>
+          <a href="https://orcid.org/0000-0002-0805-8114">ORCID</a>
+
+          <a class="cv-link" href="cv.pdf">Download CV (PDF)</a>
+        </div>
+
+        <p class="sidebar-updated">
+          Last updated: June 2026
         </p>
-
-        <ul>
-          <li><a href="cv.pdf"><strong>CV</strong></a></li>
-          <li><a href="https://scholar.google.dk/citations?user=6JqX544AAAAJ&hl=da&oi=ao"><strong>Google Scholar</strong></a></li>
-          <li><a href="https://www.linkedin.com/in/frederik-carl-windfeld/"><strong>LinkedIn</strong></a></li>
-          <li><a href="https://orcid.org/0000-0002-0805-8114"><strong>ORCID</strong></a></li>
-        </ul>
-
-        <ul>
-          <li><strong>EUI</strong></li>
-          <li><strong>Florence</strong></li>
-          <li><strong>Italy</strong></li>
-        </ul>
       </header>
 
       <section>
@@ -86,7 +108,7 @@
           </a>
           <em>Contemporary Security Policy</em> 46 (4): 977–1001.
           <br>
-          <small>Nominated (one of five) by the editors for the Bernard Brodie Prize for Best Article of 2025.</small>
+          <small>Nominated one of five by the editors for the Bernard Brodie Prize for Best Article of 2025.</small>
         </p>
 
         <p>
@@ -178,7 +200,6 @@
       </section>
 
       <footer>
-        <p><small>Last updated: 2026</small></p>
       </footer>
 
     </div>
